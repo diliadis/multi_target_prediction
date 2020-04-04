@@ -1,6 +1,6 @@
 matrix_completion/DTI_dataset(SMURFF)
 matrix_completion/movielens1m
 matrix_completion/netflix_prize_dataset
-hierarchical_multilabel_classification/VOC2006
-hierarchical_multilabel_classification/VOC2007
+hierarchical_multilabel_classification/VOC2006/PNGImages
+hierarchical_multilabel_classification/VOC2007/JPEGImages
 dyadic_prediction/algorithm_selection_dataset
