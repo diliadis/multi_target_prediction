@@ -13,6 +13,13 @@ The following datasets were collected from the [Extreme Classification Repositor
 
 ### 1) Bibtex
 
+General information about the datasets:
+
+| Dataset | Instance Dim. | Label Dim. | Training Set size | Test Set size | 
+| --- | :---: | :---: | :---: | :---: | 
+| `Bibtex` | 1836 | 159 | 4880 | 2515 | 
+| `Delicious` | 500 | 983 | 12920 | 3185 | 
+
 The dataset was first introduced by [Katakis et al.](http://lpis.csd.auth.gr/publications/katakis_ecmlpkdd08_challenge.pdf) 
 and is concerned with the automated tag recommendation problem.
 
@@ -21,12 +28,6 @@ The dataset was first introduced by [Tsoumakas et al.](http://lpis.csd.auth.gr/p
 and is also concerned with automated tag suggestion problem. The dataset was extracted from the del.icio.us social 
 bookmarking site on the 1st of April 2007. 
 
-General information about the datasets:
-
-| Dataset | Instance Dim. | Label Dim. | Training Set size | Test Set size | 
-| --- | :---: | :---: | :---: | :---: | 
-| `Bibtex` | 1836 | 159 | 4880 | 2515 | 
-| `Delicious` | 500 | 983 | 12920 | 3185 | 
 
 The features for the instances are in the form of Bag-of-word representations.
 
