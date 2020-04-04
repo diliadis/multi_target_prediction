@@ -11,14 +11,14 @@ repository contains datasets from the following problem settings:
 ## Multi-label classification
 The following datasets were collected from the [Extreme Classification Repository](http://manikvarma.org/downloads/XC/XMLRepository.html)
 
-### 1) Bibtex
-
 General information about the datasets:
 
 | Dataset | Instance Dim. | Label Dim. | Training Set size | Test Set size | 
 | --- | :---: | :---: | :---: | :---: | 
 | `Bibtex` | 1836 | 159 | 4880 | 2515 | 
 | `Delicious` | 500 | 983 | 12920 | 3185 | 
+
+### 1) Bibtex
 
 The dataset was first introduced by [Katakis et al.](http://lpis.csd.auth.gr/publications/katakis_ecmlpkdd08_challenge.pdf) 
 and is concerned with the automated tag recommendation problem.
