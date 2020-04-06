@@ -63,13 +63,16 @@ The two datasets were collected from the [Netflix price Challenge](https://www.n
 
 | Dataset | Instance Dim. | Label Dim. | examples | 
 | --- | :---: | :---: | :---: | 
-| `netflix` | - |  | 639 |
+| `netflix` | - | 4499 | 470758 |
 | `movielens` | - | 3952 | 6040 |
 
 ### 1) Netflix prize
+The dataset was offered by Netflix for the Netflix prize competition. This movie rating dataset has been used 
+extensively to evaluate collaborative filtering algorithms.The dataset contains 24 million ratings, 4499 movies and 
+470758 costumers. The ratings are made on a 5-star scale (whole-star ratings only).
 
 
 ### 2) MovieLens 1M
-This movie rating dataset has been used extensively to evaluate collaborative filtering algorithms.
+This movie rating dataset has also been used extensively as a benchmark for collaborative filtering algorithms.
 The dataset contains 1,000,209 anonymous ratings of approximately 3952 movies made by 6040 MovieLens users who joined 
 MovieLens 2000. The ratings are made on a 5-star scale (whole-star ratings only). Each user has at least 20 ratings.
