@@ -53,3 +53,23 @@ The dataset is derived from the Trading Agent Competition in Supply Chain Manage
 A row corresponds to an observation day in the tournament. The instace features are the observed prices for a specific
 tournament day as well as 4 time-delayed observations for each observed product and component (1, 2, 4 and 8 days of
 delay). Each of the 16 targets correspond to the next day mean price.
+
+
+## Matrix completion
+
+The two datasets were collected from the [Netflix price Challenge](https://www.netflixprize.com/index.html) and the
+[GroupLens research lab](https://grouplens.org/about/what-is-grouplens/).
+
+
+| Dataset | Instance Dim. | Label Dim. | examples | 
+| --- | :---: | :---: | :---: | 
+| `netflix` | - |  | 639 |
+| `movielens` | - | 3952 | 6040 |
+
+### 1) Netflix prize
+
+
+### 2) MovieLens 1M
+This movie rating dataset has been used extensively to evaluate collaborative filtering algorithms.
+The dataset contains 1,000,209 anonymous ratings of approximately 3952 movies made by 6040 MovieLens users who joined 
+MovieLens 2000. The ratings are made on a 5-star scale (whole-star ratings only). Each user has at least 20 ratings.
