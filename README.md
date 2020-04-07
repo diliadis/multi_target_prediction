@@ -59,7 +59,7 @@ delay). Each of the 16 targets correspond to the next day mean price.
 The two datasets were collected from [Tornede et al.](https://arxiv.org/pdf/2001.10741.pdf) and the [ExCAPE database](https://solr.ideaconsult.net/search/excape/)
 
 | Dataset | Instance features | Label Dim. | Label features | examples | 
-| --- | :---: | :---: | :---: | 
+| --- | :---: | :---: | :---: | :---: | 
 | `EAS dataset` | 45 | 1270 | 153 | 68 |
 | `ExCAPE` | - | 3952 | 6040 |  |
 
