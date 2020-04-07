@@ -61,10 +61,10 @@ The two datasets were collected from [Tornede et al.](https://arxiv.org/pdf/2001
 | Dataset | Instance features | Label Dim. | Label features | examples | 
 | --- | :---: | :---: | :---: | :---: | 
 | `EAS dataset` | 45 | 1270 | 153 | 68 |
-| `ExCAPE` | - | 3952 | 6040 |  |
+| `ExCAPE` | 29,413 | 526 | - | 955,386 |
 
 
-### 1) AS dataset
+### 1) EAS dataset
 The dataset was introduced by [Tornede et al.](https://arxiv.org/pdf/2001.10741.pdf) as a potential benchmark for the
 extreme algorithm selection (EAS) problem. Benchmark datasets for regular algorithm selection (AS) usually contain tens 
 of algorithms. However, in combined algorithm selection and hyperparameter optimization problems, the number of 
@@ -75,6 +75,16 @@ meta learning.
 The dataset contains 1270 algorithms which represent the labels as well as 68 benchmarking datasets that
 correspond to the labels. Each one of the 68 benchmarking datasets is represented by a 45 dimensional feature vector
 while each one of the 1270 algorithms is represented by 153 dimensional feature vector.
+
+### ExCAPE dataset
+This dataset is available in the ExCAPE database. It is a large scale quantitative structure activity relationship
+(QSAR) benchmark dataset that was built upon public resources (ChEMBL and PubChem databases). The database contains 
+70.8 million data points covering about one million compounds and 1667 protein targets. The compound structures are
+standardized, the targets have official gene symbols and the activity values are log-transformed into pXC50 values.
+The dataset can be binarized to two classes, active and inactive by using a threshold (usually active if pXC50 > 6).
+Every protein target used has at least 300 SAR data points, 75 active compounds and 75 inactive compounds. This 
+filtering yields 955,386 compounds, 526 protein targets, and 49,316,517 SAR data points (90% sparse).
+
 
 ## Matrix completion
 
