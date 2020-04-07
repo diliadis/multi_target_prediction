@@ -13,7 +13,7 @@ The following datasets were collected from the [Extreme Classification Repositor
 
 General information about the datasets:
 
-| Dataset | Instance Dim. | Label Dim. | Training Set size | Test Set size | 
+| Dataset | Instance features | Label Dim. | Training examples | Test examples | 
 | --- | :---: | :---: | :---: | :---: | 
 | `Bibtex` | 1836 | 159 | 4880 | 2515 | 
 | `Delicious` | 500 | 983 | 12920 | 3185 | 
@@ -38,7 +38,7 @@ The following datasets were collected from the [Mulan](http://mulan.sourceforge.
 
 General information about the datasets:
 
-| Dataset | Instance Dim. | Label Dim. | examples | 
+| Dataset | Instance features | Label Dim. | examples | 
 | --- | :---: | :---: | :---: | 
 | `osales` | 413 | 12 | 639 |
 | `scm1d` | 280 | 16 | 9803 |
@@ -54,6 +54,27 @@ A row corresponds to an observation day in the tournament. The instace features 
 tournament day as well as 4 time-delayed observations for each observed product and component (1, 2, 4 and 8 days of
 delay). Each of the 16 targets correspond to the next day mean price.
 
+
+## Dyadic prediction
+The two datasets were collected from [Tornede et al.](https://arxiv.org/pdf/2001.10741.pdf) and the [ExCAPE database](https://solr.ideaconsult.net/search/excape/)
+
+| Dataset | Instance features | Label Dim. | Label features | examples | 
+| --- | :---: | :---: | :---: | 
+| `EAS dataset` | 45 | 1270 | 153 | 68 |
+| `ExCAPE` | - | 3952 | 6040 |  |
+
+
+### 1) AS dataset
+The dataset was introduced by [Tornede et al.](https://arxiv.org/pdf/2001.10741.pdf) as a potential benchmark for the
+extreme algorithm selection (EAS) problem. Benchmark datasets for regular algorithm selection (AS) usually contain tens 
+of algorithms. However, in combined algorithm selection and hyperparameter optimization problems, the number of 
+candidate configurations explodes, something that compromises the efficiency of learning algorithms. Therefore, the 
+dataset proposed by Tornede et al. considers thousands configurations of cancidate algorithms, in order to facilitate 
+meta learning. 
+
+The dataset contains 1270 algorithms which represent the labels as well as 68 benchmarking datasets that
+correspond to the labels. Each one of the 68 benchmarking datasets is represented by a 45 dimensional feature vector
+while each one of the 1270 algorithms is represented by 153 dimensional feature vector.
 
 ## Matrix completion
 
