@@ -157,18 +157,18 @@ MovieLens 2000. The ratings are made on a 5-star scale (whole-star ratings only)
 
 | problem setting | datasets | novel instances | novel targets | side-info instances | side-info targets | missing values in label matrix | type of target variable |
 |:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Multi-label| Bibtex | yes | no | yes| no | no | binary |
-| Classification | Delicious | yes | no | yes| no | no | binary |
+| **Multi-label**| *Bibtex* | yes | no | yes| no | no | binary |
+| **Classification** | *Delicious* | yes | no | yes| no | no | binary |
 |----------|----------|----------|----------|----------|----------|----------|----------|
-| Multivariate| Osales | yes | no | yes| no | no | continuous |
-| Regression | scm1d | yes | no | yes| no | no | continuous |
+| **Multivariate** | *Osales* | yes | no | yes| no | no | continuous |
+| **Regression** | *scm1d* | yes | no | yes| no | no | continuous |
 |----------|----------|----------|----------|----------|----------|----------|----------|
-| Dyadic | EAS | yes | no | yes| yes | yes | continuous |
-| Prediction | ExCAPE | yes | no | yes| yes | yes | real/continuous |
+| **Dyadic** | *EAS* | yes | no | yes| yes | yes | continuous |
+| **Prediction** | *ExCAPE* | yes | no | yes| yes | yes | real/continuous |
 |----------|----------|----------|----------|----------|----------|----------|----------|
-| Matrix | Netflix | no | no | no| no | yes | continuous |
-| Completion | MovieLens1M | no | no | no| no | yes | continuous |
+| **Matrix** | *Netflix* | no | no | no| no | yes | continuous |
+| **Completion** | *MovieLens1M* | no | no | no| no | yes | continuous |
 |----------|----------|----------|----------|----------|----------|----------|----------|
-| Hierarchical | Netflix | yes | no | yes| hierarchical | no | binary |
-| Multi-label Classification | MovieLens1M | yes | no | yes| hierarchical | no | binary |
+| **Hierarchical** | *Netflix* | yes | no | yes| hierarchical | no | binary |
+| **Multi-label Classification** | *MovieLens1M* | yes | no | yes| hierarchical | no | binary |
 
