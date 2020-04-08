@@ -156,7 +156,7 @@ The dataset contains 1,000,209 anonymous ratings of approximately 3952 movies ma
 MovieLens 2000. The ratings are made on a 5-star scale (whole-star ratings only). Each user has at least 20 ratings.
 
 | problem setting | datasets | novel instances | novel targets | side-info instances | side-info targets | missing values in label matrix | type of target variable |
-|----------|----------|----------|----------|----------|----------|----------|----------|
+|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|
 | Multi-label| Bibtex | yes | no | yes| no | no | binary |
 | Classification | Delicious | yes | no | yes| no | no | binary |
 |----------|----------|----------|----------|----------|----------|----------|----------|
