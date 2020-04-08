@@ -32,6 +32,46 @@ bookmarking site on the 1st of April 2007.
 The features for the instances are in the form of Bag-of-word representations.
 
 
+## Hierarchical Multi-label classification
+
+The following datasets were collected from the PASCAL Visual Object Classes (VOC) challenge of 2006 and 2007
+and are considered as benchmarks in the fields of visual object category recognition and detection. 
+
+### 1) VOC2006
+The dataset was introduced as a benchmark for the PASCAL VOC challenge of 2006. The goal of this challenge is to 
+recognize objects from a number of visual object classes in realistic scenes. The ten object classes that have been 
+selected are:
+
+* bicycle, bus, car, motorbike
+* cat, cow, dog, horse, sheep
+* person
+
+The data has been split into 50% for training/validation and 50% for testing. The distributions of images and objects 
+by class are approximately equal across the training/validation and test sets. In total there are 5304 images, 
+containing 9507 annotated objects.
+
+### 2) VOC2007 
+The dataset was introduced as a benchmark for the PASCAL VOC challenge of 2007. The goal of the challenge is again to 
+recognize objects from a number of visual object classes in realistic scenes. The twenty object classes that have been
+selected are:
+
+* bottle, chair, dining table, potted plant, sofa, tv/monitor
+* aeroplane, bicycle, boat, bus, car, motorbike, train
+* bird, cat, cow, dog, horse, sheep
+* person
+
+The data has been split into 50% for training/validation and 50% for testing. The distributions of images and objects 
+by class are approximately equal across the training/validation and test sets. In total there are 9,963 images, 
+containing 24,640 annotated objects.
+
+We consider these two datasets as instances of a hierarchical multi-label classification problem because :
+* multiple objects can be present in an image at once (hence multi-label)
+* there is a known hierarchy of the labels available
+
+<p align="center">
+  <img src="https://github.com/diliadis/multi_target_prediction/tree/master/images/hierarchy.png">
+</p>
+
 ## Multivariate(Multi-target) regression
 
 The following datasets were collected from the [Mulan](http://mulan.sourceforge.net/datasets-mtr.html) repository.
