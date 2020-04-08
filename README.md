@@ -164,7 +164,7 @@ MovieLens 2000. The ratings are made on a 5-star scale (whole-star ratings only)
 | **Regression** | *scm1d* | yes | no | yes| no | no | continuous |
 |----------|----------|----------|----------|----------|----------|----------|----------|
 | **Dyadic** | *EAS* | yes | no | yes| yes | yes | continuous |
-| **Prediction** | *ExCAPE* | yes | no | yes| yes | yes | real/continuous |
+| **Prediction** | *ExCAPE* | yes | no | yes| yes | yes | binary/continuous |
 |----------|----------|----------|----------|----------|----------|----------|----------|
 | **Matrix** | *Netflix* | no | no | no| no | yes | continuous |
 | **Completion** | *MovieLens1M* | no | no | no| no | yes | continuous |
