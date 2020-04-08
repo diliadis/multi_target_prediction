@@ -69,7 +69,7 @@ We consider these two datasets as instances of a hierarchical multi-label classi
 * there is a known hierarchy of the labels available
 
 <p align="center">
-  <img src="https://github.com/diliadis/multi_target_prediction/tree/master/images/hierarchy.png">
+  <img src="https://github.com/diliadis/multi_target_prediction/blob/master/images/hierarchy.png">
 </p>
 
 ## Multivariate(Multi-target) regression
