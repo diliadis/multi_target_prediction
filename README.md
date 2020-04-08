@@ -79,7 +79,7 @@ We consider these two datasets as instances of a hierarchical multi-label classi
   <img src="https://github.com/diliadis/multi_target_prediction/blob/master/images/hierarchy.png">
 </p>
 
-## Multivariate(Multi-target) regression
+## Multivariate (Multi-target) regression
 
 The following datasets were collected from the [Mulan](http://mulan.sourceforge.net/datasets-mtr.html) repository.
 
@@ -123,7 +123,7 @@ The dataset contains 1270 algorithms which represent the labels as well as 68 be
 correspond to the labels. Each one of the 68 benchmarking datasets is represented by a 45 dimensional feature vector
 while each one of the 1270 algorithms is represented by 153 dimensional feature vector.
 
-### ExCAPE dataset
+### 2) ExCAPE dataset
 This dataset is available in the ExCAPE database. It is a large scale quantitative structure activity relationship
 (QSAR) benchmark dataset that was built upon public resources (ChEMBL and PubChem databases). The database contains 
 70.8 million data points covering about one million compounds and 1667 protein targets. The compound structures are
@@ -150,7 +150,7 @@ extensively to evaluate collaborative filtering algorithms.The dataset contains 
 470758 costumers. The ratings are made on a 5-star scale (whole-star ratings only).
 
 
-### 2) MovieLens 1M
+### 2) MovieLens1M
 This movie rating dataset has also been used extensively as a benchmark for collaborative filtering algorithms.
 The dataset contains 1,000,209 anonymous ratings of approximately 3952 movies made by 6040 MovieLens users who joined 
 MovieLens 2000. The ratings are made on a 5-star scale (whole-star ratings only). Each user has at least 20 ratings.
