@@ -37,8 +37,15 @@ The features for the instances are in the form of Bag-of-word representations.
 The following datasets were collected from the PASCAL Visual Object Classes (VOC) challenge of 2006 and 2007
 and are considered as benchmarks in the fields of visual object category recognition and detection. 
 
+
+| Dataset | Instance features | Label Dim. | examples |
+| --- | :---: | :---: | :---: | 
+| `VOC2006` |  | 10 | 5304 | 
+| `VOC2007` |  | 20 | 9963 | 
+
+
 ### 1) VOC2006
-The dataset was introduced as a benchmark for the PASCAL VOC challenge of 2006. The goal of this challenge is to 
+The dataset was introduced as a benchmark for the [PASCAL VOC challenge of 2006](http://host.robots.ox.ac.uk/pascal/VOC/voc2006/index.html). The goal of this challenge is to 
 recognize objects from a number of visual object classes in realistic scenes. The ten object classes that have been 
 selected are:
 
@@ -51,7 +58,7 @@ by class are approximately equal across the training/validation and test sets. I
 containing 9507 annotated objects.
 
 ### 2) VOC2007 
-The dataset was introduced as a benchmark for the PASCAL VOC challenge of 2007. The goal of the challenge is again to 
+The dataset was introduced as a benchmark for the [PASCAL VOC challenge of 2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/). The goal of the challenge is again to 
 recognize objects from a number of visual object classes in realistic scenes. The twenty object classes that have been
 selected are:
 
@@ -147,3 +154,7 @@ extensively to evaluate collaborative filtering algorithms.The dataset contains 
 This movie rating dataset has also been used extensively as a benchmark for collaborative filtering algorithms.
 The dataset contains 1,000,209 anonymous ratings of approximately 3952 movies made by 6040 MovieLens users who joined 
 MovieLens 2000. The ratings are made on a 5-star scale (whole-star ratings only). Each user has at least 20 ratings.
+
+
+
+
