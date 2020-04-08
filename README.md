@@ -155,6 +155,20 @@ This movie rating dataset has also been used extensively as a benchmark for coll
 The dataset contains 1,000,209 anonymous ratings of approximately 3952 movies made by 6040 MovieLens users who joined 
 MovieLens 2000. The ratings are made on a 5-star scale (whole-star ratings only). Each user has at least 20 ratings.
 
-
-
+| problem setting | datasets | novel instances | novel targets | side-info instances | side-info targets | missing values in label matrix | type of target variable |
+|----------|----------|----------|----------|----------|----------|----------|----------|
+| Multi-label| Bibtex | yes | no | yes| no | no | binary |
+| Classification | Delicious | yes | no | yes| no | no | binary |
+|----------|----------|----------|----------|----------|----------|----------|----------|
+| Multivariate| Osales | yes | no | yes| no | no | continuous |
+| Regression | scm1d | yes | no | yes| no | no | continuous |
+|----------|----------|----------|----------|----------|----------|----------|----------|
+| Dyadic | EAS | yes | no | yes| yes | yes | continuous |
+| Prediction | ExCAPE | yes | no | yes| yes | yes | real/continuous |
+|----------|----------|----------|----------|----------|----------|----------|----------|
+| Matrix | Netflix | no | no | no| no | yes | continuous |
+| Completion | MovieLens1M | no | no | no| no | yes | continuous |
+|----------|----------|----------|----------|----------|----------|----------|----------|
+| Hierarchical | Netflix | yes | no | yes| hierarchical | no | binary |
+| Multi-label Classification | MovieLens1M | yes | no | yes| hierarchical | no | binary |
 
